@@ -168,6 +168,7 @@ dt {
 
 ul.side-nav {
   width: 190px;
+  background-color: #121212;
 }
 
 ul.side-nav li {
@@ -188,7 +189,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 }
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #515151;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -201,12 +202,12 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #515151;
   border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: #fff !important;
 }
 
 li.logo span {
@@ -504,11 +505,13 @@ small {
     height: 64px;
     position: absolute;
   }
+  
   nav a.button-collapse, nav a.button-collapse i {
     color: #fff;
     height: 56px;
     line-height: 56px;
   }
+  
   h3 {
     padding: 20px 30px;
     margin-bottom: 40px;
