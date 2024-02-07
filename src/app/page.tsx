@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 export default async function Home() {
 
   return (
@@ -6,10 +6,13 @@ export default async function Home() {
       <section className="home section" id="home">
         <div className="container">
           <div className="intro">
-            <img
+            <Image
               src="/imgs/aitor.png"
               alt="Aitor Ventura Profile"
               className="shadow-dark"
+              width={200}
+              height={200}
+              style={{ borderRadius: "50%", display: "inline-block", border: "8px solid #ffffff" }}
             />
             <h1>Aitor Ventura</h1>
             <p>Senior Video Game Developer & Designer</p>

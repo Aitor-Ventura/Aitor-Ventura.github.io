@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 
 const About: NextPage = () => {
   return (
@@ -111,7 +112,7 @@ const About: NextPage = () => {
                   </div>
                 </div>
                 <div className="dogandcat">
-                  <img src="https://media.tenor.com/yoAqeriAJnIAAAAi/bugcat-bugcatsticker.gif" alt="Bugcat" />
+                  <Image src="https://media.tenor.com/yoAqeriAJnIAAAAi/bugcat-bugcatsticker.gif" alt="Bugcat" width={345} height={273} />
                 </div>
               </div>
             </div>

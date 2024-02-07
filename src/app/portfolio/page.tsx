@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from 'next/image';
 
 const Portfolio: NextPage = () => {
   return (
@@ -15,14 +16,20 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/1.png" alt="portfolio" />
+                  <Image 
+                      src="/imgs/portfolio/1.png" 
+                      alt="portfolio"
+                      width={300}
+                      height={300}
+                      style={{ display: "block", width: "100%", height: "14rem", objectFit: "fill" }}
+                  />
                 </div>
                 <a href="https://www.youtube.com/watch?v=WDw54muUcec" target="_blank" className="link">
                   <div className="portfolio-info">
-                    <h4>Guayota's Land</h4>
+                    <h4>Guayota&apos;s Land</h4>
                     <h5>
                       Survive in the lands of Guayota and protect yourself from all the dangers!
-                      This is a prototytpe of a farming videogame based in the Canary Islands' mythology.
+                      This is a prototytpe of a farming videogame based in the Canary Islands&apos; mythology.
                       Developed using Unity.
                     </h5>
                     <div className="icon">
@@ -37,7 +44,13 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/2.png" alt="portfolio" />
+                  <Image
+                      src="/imgs/portfolio/2.png"
+                      alt="portfolio"
+                      width={300}
+                      height={300}
+                      style={{ display: "block", width: "100%", height: "14rem", objectFit: "fill" }}
+                  />
                 </div>
                 <a href="https://www.youtube.com/watch?v=LBM3Q3AK3bQ" target="_blank" className="link">
                   <div className="portfolio-info">
@@ -60,7 +73,13 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/3.png" alt="portfolio" />
+                  <Image
+                      src="/imgs/portfolio/3.png"
+                      alt="portfolio"
+                      width={300}
+                      height={300}
+                      style={{ display: "block", width: "100%", height: "14rem", objectFit: "fill" }}
+                  />
                 </div>
                 <a href="https://www.youtube.com/watch?v=vjoZtKMVdJE" target="_blank" className="link">
                   <div className="portfolio-info">
@@ -80,7 +99,13 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/4.png" alt="portfolio" />
+                  <Image
+                      src="/imgs/portfolio/4.png"
+                      alt="portfolio"
+                      width={300}
+                      height={300}
+                      style={{ display: "block", width: "100%", height: "14rem", objectFit: "fill" }}
+                  />
                 </div>
                 <a href="https://www.youtube.com/watch?v=XEAqY9fpgbM" target="_blank" className="link">
                   <div className="portfolio-info">
@@ -100,13 +125,19 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/5.png" alt="portfolio" />
+                  <Image
+                      src="/imgs/portfolio/5.png"
+                      alt="portfolio"
+                      width={300}
+                      height={300}
+                      style={{ display: "block", width: "100%", height: "14rem", objectFit: "fill" }}
+                  />
                 </div>
                 <a href="https://www.youtube.com/watch?v=wsVqyn3iNh0" target="_blank" className="link">
                   <div className="portfolio-info">
                     <h4>Elevator System</h4>
                     <h5>
-                      An elevator system that handles multiple elevators: some with different "first" and "top" 
+                      An elevator system that handles multiple elevators: some with different &quot;first&quot; and &quot;top&quot; 
                       levels; options for different behaviors. Developed using Unity.
                     </h5>
                     <div className="icon">
@@ -121,13 +152,19 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/6.png" alt="portfolio" />
+                  <Image
+                      src="/imgs/portfolio/6.png"
+                      alt="portfolio"
+                      width={300}
+                      height={300}
+                      style={{ display: "block", width: "100%", height: "14rem", objectFit: "fill" }}
+                  />
                 </div>
                 <a href="https://www.youtube.com/watch?v=WDw54muUcec" target="_blank" className="link">
                   <div className="portfolio-info">
                     <h4>Input Field Recreation</h4>
                     <h5>
-                      A system that tries to simulate the Unity's standard input field. It has a placeholder, a caret, 
+                      A system that tries to simulate the Unity&apos;s standard input field. It has a placeholder, a caret, 
                       and a text selection system. Developed using Unity.
                     </h5>
                     <div className="icon">
@@ -142,7 +179,13 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/7.png" alt="portfolio" />
+                  <Image
+                      src="/imgs/portfolio/7.png"
+                      alt="portfolio"
+                      width={300}
+                      height={300}
+                      style={{ display: "block", width: "100%", height: "14rem", objectFit: "fill" }}
+                  />
                 </div>
                 <a href="https://mda-clicker.vercel.app/" target="_blank" className="link">
                   <div className="portfolio-info">
